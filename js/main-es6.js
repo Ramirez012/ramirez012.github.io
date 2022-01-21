@@ -4,7 +4,7 @@
     // При скролле страница на 50 пикселей вниз меняется бэкграунд у фиксированного списка (добавляется другое класс)
     // В противнос случае удаляем этот класс
     window.onscroll = () => {
-        if (window.pageYOffset > 50) {
+        if (window.pageYOffset > 20) {
             header.classList.add('header_active');
         } else {
             header.classList.remove('header_active');
